@@ -70,7 +70,7 @@ function startTimer() {
   
         if (Notification.permission === 'granted') {
           const text =
-            timer.mode === 'pomodoro' ? 'De vuelta a la concentración!' : 'Take a break!';
+            timer.mode === 'pomodoro' ? 'De vuelta a la concentración!' : 'Toma un descanso!';
           new Notification(text);
         }
   
